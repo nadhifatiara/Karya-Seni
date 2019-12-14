@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="50dp"
+    android:padding="30dp"
     tools:context=".Register">
 
     <TextView
@@ -13,17 +13,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="SIGN UP"
-        android:textSize="30sp">
+        android:textSize="40px"
+        android:textStyle="bold">
     </TextView>
 
     <TextView
         android:id="@+id/tvEmail1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30sp"
+        android:layout_marginTop="15sp"
         android:layout_below="@+id/tv"
         android:text="Email"
-        android:textSize="30dp">
+        android:textSize="40px">
     </TextView>
 
     <EditText
@@ -41,9 +42,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/EdtEmailSignUp"
-        android:layout_marginTop="20sp"
+        android:layout_marginTop="15sp"
         android:text="Password"
-        android:textSize="30dp">
+        android:textSize="40px">
     </TextView>
 
     <EditText
@@ -61,7 +62,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Sign Up"
-        android:textSize="25sp"
+        android:textSize="30px"
         android:textColor="@android:color/background_light"
         android:layout_below="@+id/EdtPassSignUp"
         android:layout_marginTop="30sp"
